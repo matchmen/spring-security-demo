@@ -13,8 +13,7 @@ import org.springframework.stereotype.Component;
 import java.util.Collection;
 
 /**
- *
- * 权限验证
+ * 权限验证类
  * author: liqm
  * 2019-07-24
  */

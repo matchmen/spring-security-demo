@@ -9,6 +9,7 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.stereotype.Component;
 
 /**
+ * 登录验证 管理
  * author: liqm
  * 2019-07-23
  */

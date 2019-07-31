@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
+ * 登录验证过滤器
  * author: liqm
  * 2019-07-24
  */
@@ -29,6 +30,7 @@ public class MyUsernamePasswordAuthenticationFilter extends UsernamePasswordAuth
 
     /**
      * 该方法和父类提供的基本一致，重写只是让流程更加清晰
+     *
      * @param request
      * @param response
      * @return
@@ -59,7 +61,7 @@ public class MyUsernamePasswordAuthenticationFilter extends UsernamePasswordAuth
         UsernamePasswordAuthenticationToken authRequest = new UsernamePasswordAuthenticationToken(
                 username, password);
 
-        //委托AuthenticationManager进行登录验证
+        /** 委托AuthenticationManager进行登录验证 */
         return this.getAuthenticationManager().authenticate(authRequest);
     }
 

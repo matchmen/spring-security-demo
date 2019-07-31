@@ -16,6 +16,7 @@ import java.util.List;
 import java.util.Objects;
 
 /**
+ * 用户信息加载
  * author: liqm
  * 2019-07-23
  */

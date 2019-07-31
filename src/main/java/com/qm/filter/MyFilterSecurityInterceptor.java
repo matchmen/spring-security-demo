@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 
 /**
+ * 资源权限过滤器
  * author: liqm
  * 2019-07-23
  */

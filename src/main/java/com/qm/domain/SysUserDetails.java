@@ -8,6 +8,7 @@ import java.util.Collection;
 import java.util.List;
 
 /**
+ * 1.封装当前登录用户信息，用户名、密码、权限，还可加入其它信息，由开发者自己决定
  * author: liqm
  * 2019-07-23
  */

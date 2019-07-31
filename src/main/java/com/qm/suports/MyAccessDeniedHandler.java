@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
+ * 无权访问处理
  * author: liqm
  * 2019-07-29
  */
